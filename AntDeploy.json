@@ -1,0 +1,57 @@
+﻿{
+  "Env": [],
+  "IIsConfig": {
+    "SdkType": null,
+    "WebSiteName": "",
+    "LastEnvName": null,
+    "EnvPairList": []
+  },
+  "WindowsServiveConfig": {
+    "ServiceName": "",
+    "SdkType": null,
+    "LastEnvName": null,
+    "EnvPairList": []
+  },
+  "LinuxServiveConfig": {
+    "ServiceName": "",
+    "EnvParam": "",
+    "LastEnvName": null,
+    "EnvPairList": []
+  },
+  "DockerConfig": {
+    "Prot": "",
+    "AspNetCoreEnv": "",
+    "LastEnvName": null,
+    "RemoveDaysFromPublished": "10",
+    "Volume": "",
+    "Other": "",
+    "EnvPairList": []
+  },
+  "DockerImageConfig": {
+    "BaseHttpProxy": "",
+    "BaseImage": "mcr.microsoft.com/dotnet/aspnet:5.0",
+    "BaseImageCredential": {
+      "UserName": "",
+      "Password": ""
+    },
+    "TargetImage": "docker.io/nainaigu/k8s-demo",
+    "TargetHttpProxy": "",
+    "TargetTags": [
+      "1.8"
+    ],
+    "TargetImageCredential": {
+      "UserName": "nainaigu",
+      "Password": "Yuzd021105"
+    },
+    "ImageFormat": "Docker",
+    "Entrypoint": [
+      "dotnet"
+    ],
+    "Cmd": [
+      "envoy.dll"
+    ],
+    "IgnoreList": [
+      "AntDeploy.json"
+    ]
+  }
+}
